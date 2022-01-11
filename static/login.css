@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=PT+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+.containter {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    padding: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.login-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 500px;
+    max-height: 420px;
+    padding: 25px;
+}
+
+.logo>img {
+    width: 350px;
+}
+input[type="text"],input[type="email"],input[type="password "] {
+    background: rgba(255,255,255,0.5) !important;
+}
+.text {
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+
+#main-title {
+    line-height: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.d-grid>button {
+    font-weight: bold;
+    background: #333 !important;
+    border: 3px solid #333 !important;
+    transition: all 0.25s ease-in-out;
+}
+
+.d-grid>button:hover {
+    box-shadow: -6px 8px 13px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -6px 8px 13px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 8px 13px -6px rgba(0,0,0,0.75);
+    font-weight: bold;
+    color: #333 !important;
+    border: 3px solid #333 !important;
+    background: none !important;
+    transition: all 0.25s ease-in-out;
+}
+
+#center {
+    margin-bottom: 15px !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+.form-floating {
+    border-radius: 3px;box-shadow: 8px 9px 13px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 9px 13px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 9px 13px -6px rgba(0,0,0,0.75);
+}
+input {
+   
+    font-weight: bold !important;
+}
+
+#bg-logo {
+    position: absolute;
+    z-index: -1;
+    right: 100px;
+    bottom: 10px;
+    opacity: 0.15;
+    width: 40%;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+
+#alert {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.site-title {
+    position: relative;
+    top: 350px !important;
+}
+@media only screen and (max-width: 600px) {
+.containter {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 0 !important;
+    left: 50%;
+    margin-top: 40px;
+    transform: translateX(-50%);
+}
+
+.logo>img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+.login-box {
+    margin: 0;
+    width: 95%;
+
+}
+.text {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    top: 100px;  
+}
+#main-title {
+    line-height: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#bg-logo {
+    position: fixed;
+    right:0px;
+    z-index: -1;
+    bottom: 0px;
+    opacity: 0.15;
+    width: 100%;
+}
+.site-title {
+    margin-top: 0px !important;
+}
+#lottie-t {
+    position: absolute;
+    left: -80px;
+    top: 0;
+    z-index: -1;
+    margin-right: -200px;
+    padding: 0px !important;
+    margin: 0 auto !important;
+    transform: scale(0.7) !important;
+}
+}

@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+body {
+    background: #efefef;
+}
+
+.containter {
+    position: relative;
+    width: 60%;
+    height: 100vh;
+    left: 50%;
+    padding: 15px;
+    transform: translateX(-50%);
+}
+
+#logo {
+    position: relative;
+    left: 50%;
+    transform: translateX(-53%);
+    width: 80%;
+}
+
+.text {
+    text-align: center;
+    font-size: 22px;
+    color: #333333;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0px 0px;
+    padding: 15px;
+}
+
+.side {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    margin-left: 50px;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+button {
+    position: relative;
+    margin: 5px 5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+    font-weight: bolder;
+    color: #333;
+    border: 2px solid #c7c7c7;
+    background: none;
+    transition: all 0.25s ease-in-out;
+
+}
+
+a {
+    color: white !important;
+}
+
+button:hover {
+    padding: 10px 40px;
+    font-weight: 500;
+    background: #333;
+    outline: none;
+    color: #efefef;
+    color: var(--primary-color);
+    transition: all 0.25s ease-in-out;
+
+}
+#dark-btn {
+    padding: 10px 30px;
+    font-weight: 500;
+    background: #333;
+    outline: none;
+    color: #efefef;
+    color: var(--primary-color);
+    transition: all 0.25s ease-in-out;
+
+}
+#dark-btn:hover {
+    padding: 10px 40px;
+    position: relative;
+    margin: 5px 5px;
+    border-radius: 30px;
+    font-size: 18px;
+    outline: none;
+    font-weight: bolder;
+    color: #333;
+    border: 2px solid #c7c7c7;
+    background: none;
+    transition: all 0.25s ease-in-out;
+
+}
+
+#homeimg {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 55%;
+    width: 44%;
+    animation-name: move;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 25px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .containter {
+        width: 100%;
+    }
+
+
+    #logo {
+        position: relative;
+        left: 50%;
+        margin-top: 30px;
+        transform: translateX(-50%);
+        width: 100%;
+    }
+
+    #homeimg {
+        position: absolute;
+        right: 50%;
+        transform: translate(52%);
+        width: 100%;
+        margin-top: 130%;
+        animation-name: move;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    .side {
+        position: absolute;
+        text-align: center;
+        left: -35px;
+        top: 40%;
+        transform: translateY(-50%);
+    }
+}

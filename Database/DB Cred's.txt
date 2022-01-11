@@ -1,0 +1,4 @@
+DB HOST = remotemysql.com
+DB USER = rVDdLPKZIw
+DB PASS = MOCryJTHA9
+DB NAME = rVDdLPKZIw

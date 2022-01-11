@@ -1,0 +1,62 @@
+{% extends '_dashboard.html' %}
+{% block head %}
+<title> Homepage | JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='home.css')}}">
+<link rel="stylesheet" href="{{ url_for('static',filename='confetti.css')}}">
+{% endblock %}
+{% block body %}
+<main class="container" id="cont">
+    <div class="center hide {{adisplay}} responsive">
+        <p id="bold">{{alert}}<span>({{rollno}})</span></p>
+        <p class="bolder">This Web Application allows you to calculate SGPA and CGPA, <br> It's Exclusively made for
+            JNTUH affiliated students. <br> Feel free to use this resource.</p>
+    </div>
+    <div class="hide gpa-content {{bdisplay}}">
+        <div class="year-wise">
+            <h5>I YEAR</h5>
+            <div class="grid-s">
+                <p>1st Semester GPA <span> {{sgpas.0}} </span></p>
+                <p>2nd Semester GPA <span> {{sgpas.1}}</span></p>
+            </div>
+        </div>
+        <div class="year-wise">
+            <div class="">
+                <h5>II YEAR</h5>
+                <div class="grid-s">
+                    <p>1st Semester GPA <span> {{sgpas.2}} </span></p>
+                    <p>2nd Semester GPA <span>{{sgpas.3}}</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="year-wise">
+            <h5>III YEAR</h5>
+            <div class="grid-s">
+                <p>1st Semester GPA <span>{{sgpas.4}}</span></p>
+                <p>2nd Semester GPA <span>{{sgpas.5}}</span></p>
+            </div>
+        </div>
+        <div class="year-wise">
+            <h5>IV YEAR</h5>
+            <div class="grid-s">
+                <p>1st Semester GPA <span>{{sgpas.6}}</span></p>
+                <p>2nd Semester GPA <span>{{sgpas.7}}</span></p>
+            </div>
+        </div>
+        <p id="cgpa">Cummulative Grade Point Average (CGPA) <span>{{ cgpa }}</span> / 10 </p>
+    </div>
+    <div class="hide {{cvisibility}} overflow">
+        <div class="confetti">
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_lamra2gh.json" background="transparent"
+                speed="1" style="width: 600px; height: 500px;" loop autoplay></lottie-player>
+            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_lamra2gh.json" background="transparent"
+                speed="1" style="width: 600px; height: 500px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+    <div class="hide {{dvisibility}} ">
+        <div class="success-confetti scale">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_mj35fmqa.json" background="transparent"
+                speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+</main>
+{% endblock %}

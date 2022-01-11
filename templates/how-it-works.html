@@ -1,0 +1,196 @@
+{% extends '_base.html' %}
+{% block head %}
+<title> How It Works | JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='login.css')}}">
+<link rel="stylesheet" href="{{ url_for('static',filename='howto.css')}}">
+
+
+{% endblock %}
+
+{% block body %}
+<div class="containter">
+    <a href="/">
+        <div class="logo">
+            <img src="{{url_for('static',filename='Images/Logo-withText.png')}}" alt="">
+        </div>
+    </a>
+    <div class="content">
+        <h3 class="center">How to Calculate SGPA & CGPA </h3>
+        <h4 class="center">JNTU Hyderabad Computation of Grade Point Averagae </h4>
+        <hr>
+        <div class="inner-contents">
+            <div class="mt-3">
+                <h5>What is CGPA?</h5>
+                <p>
+                    CGPA is referred to as a cumulative grade point average. It was introduced in the CCE or Continuous
+                    and
+                    Comprehensive Evaluation System for Class X. CGPA gives the average grade point of the student
+                    performance
+                    in all the subjects excluding the additional Subject. The subject wise performance of the students
+                    is
+                    recorded in forms of Grades.
+                </p>
+            </div>
+            <div class="mt-5">
+                <h5>Why is it used?</h5>
+                <p>
+                    The CGPA is used to denote the overall performance of the student in the academic session as grades.
+                    The CGPA system was introduced to ease the burden of marks and the stress of the examinations among
+                    students. Due to this reason, the CGPA system is also used in some of the bachelor's and Master's
+                    Degree.
+                </p>
+            </div>
+            <div class="mt-5">
+                <h5>Pros and Cons of using CGPA</h5>
+                <p>
+                    The CGPA system defines the grades of a student in its academics. Although, it has some pros and
+                    cons.
+                </p>
+
+                <h6>Pros</h6>
+                <ul>
+                    <li class="mb-2">The CGPA system has introduced grading which has reduced the pressure of scoring
+                        higher marks as
+                        the marks are not written on the report cards.
+                    </li>
+                    <li class="mb-2">The attention to different subjects can be given to different subjects as per the
+                        grades.
+                        Capability and Performance of subjects can be determined easily.
+                    </li>
+                    <li class="mb-2">The attention to different subjects can be given to different subjects as per the
+                        grades.
+                        Capability and Performance of subjects can be determined easily.
+                    </li>
+                    <li class="mb-2">It provides the students with a clear idea of their strengths and weakness in
+                        academics.
+                    </li>
+                </ul>
+                <h6 class="mt-3">Cons</h6>
+                <ul>
+                    <li class="mb-2">The CGPA system eradicates the sense of competition which is the basis of
+                        motivation for some of the students. By removing the competition, the students may aim for
+                        clearing only the grades and not scoring higher.
+                    </li>
+                    <li class="mb-2">In the CCE system, the activities and projects are also responsible for the Grades
+                        of a student. So, a student might get higher grades just by performing better in activities and
+                        not in Examinations.
+                    </li>
+                </ul>
+            </div>
+            <h3 class="center mt-5">JNTU Hyderabad Computation of Semester Grade Point Averagae (SGPA) & Cumulative
+                Grade Point Average (CGPA).</h3>
+            <img src="{{url_for('static',filename='Images/JNTUH-logo.png')}}" id="middle" class="mt-4" alt="jntuh-logo">
+            <div class="mt-5">
+                <h5>Grading procedure</h5>
+                <p class="mt-3">
+                    Marks will be awarded to indicate the performance of student in each theory subject, laboratory /
+                    practicals, seminar, UG mini project and UG major project. Based on the percentage of marks obtained
+                    (Continuous Internal Evaluation plus Semester End Examination, both taken together) as specified in
+                    item 8 above, a corresponding letter grade shall be given.<br><br>As a measure of the performance of
+                    student, a 10-point absolute grading system using the following letter grades (as per UGC/AICTE
+                    guidelines) and corresponding percentage of marks shall be followed:
+                </p>
+                <img src="{{url_for('static',filename='Images/grades.png')}}" id="middle" class="mt-5"
+                    alt="jntuh-grades">
+                <p class="mt-5">
+                    A student obtaining ‘F’ grade in any subject shall be deemed to have ‘failed’ and is required to
+                    reappear as a ‘supplementary student’ in the semester end examination, as and when offered. In such
+                    cases, internal marks in those subjects will remain the same as those obtained earlier.<br><br>A
+                    student who has not appeared for examination in any subject, ‘Ab’ grade will be allocated in that
+                    subject, and student shall be considered ‘failed’. Student will be required to reappear as a
+                    ‘supplementary student’ in the semester end examination, as and when offered.<br><br>A letter grade
+                    does not indicate any specific percentage of marks secured by the student, but it indicates only the
+                    range of percentage of marks.<br><br>A student earns grade point (GP) in each subject/ course, on
+                    the basis of the letter grade secured in that subject/ course. The corresponding ‘credit points’
+                    (CP) are computed by multiplying the grade point with credits for that particular subject/ course.
+                </p>
+                <p class="link-danger mt-4 center bold">Credit points (CP) = grade point (GP) x credits... For a course
+                </p>
+                <p class="mt-5">
+                    The student passes the subject/ course only when<b> GP * 5 (‘C’ grade or above)</b><br><br>The
+                    semester grade point average (SGPA) is calculated by dividing the sum of credit points (ΣCP) secured
+                    from all subjects/ courses registered in a semester, by the total number of credits registered
+                    during that semester. SGPA is rounded off to two decimal places. SGPA is thus computed as
+                </p>
+                <img src="{{url_for('static',filename='Images/sgpa.png')}}" id="middle" class="mt-5 size"
+                    alt="jntuh-grades">
+                <p class="mt-5">
+                    where ‘i’ is the subject indicator index (takes into account all subjects in a semester), ‘N’ is the
+                    no. of subjects ‘registered’ for the semester (as specifically required and listed under the course
+                    structure of the parent department), C is the no. of credits allotted to the i th subject, and G
+                    represents the grade points (GP) corresponding to the letter grade awarded for that ith
+                    subject.<br><br>
+
+                    The cumulative grade point average (CGPA) is a measure of the overall cumulative performance of a
+                    student in all semesters considered for registration. The CGPA is the ratio of the total credit
+                    points secured by a student in all registered courses in all semesters, and the total number of
+                    credits registered in all the semesters. CGPA is rounded off to two decimal places. CGPA is thus
+                    computed from the I year II semester onwards at the end of each semester as per the formula.
+                </p>
+                <img src="{{url_for('static',filename='Images/cgpa.png')}}" id="middle" class="mt-5 size"
+                    alt="jntuh-grades">
+                <p class="mt-5">
+                    where ‘M’ is the total no. of subjects (as specifically required and listed under the course
+                    structure of the parent department) the student has ‘registered’ i.e., from the 1st semester onwards
+                    up to and inclusive of the 8 th semester, ‘j’ is the subject indicator index (takes into account all
+                    subjects from 1 to 8 semesters), C is the no. of credits allotted to the jth subject, and G
+                    represents the grade points (GP) corresponding to the letter grade awarded for that jth subject.
+                    After registration and completion of first year first semester, the SGPA of that semester itself may
+                    be taken as the CGPA, as there are no cumulative effects.
+                </p>
+            </div>
+            <div class="mt-4">
+                <h5>Illustration of calculation of SGPA</h5>
+                <img src="{{url_for('static',filename='Images/sgpa-i.png')}}" id="middle" class="mt-5 size"
+                    alt="jntuh-grades">
+            </div>
+            <div class="mt-4">
+                <h5>Illustration of calculation of CGPA</h5>
+                <img src="{{url_for('static',filename='Images/cgpa-i.png')}}" id="middle" class="mt-5 size"
+                    alt="jntuh-grades">
+            </div>
+            <div class="">
+                <p class="mt-5">
+                    For merit ranking or comparison purposes or any other listing, only the ‘rounded off’ values of the
+                    CGPAs will be used.<br><br>
+
+                    For calculations listed in regulations SGPA to CGPA, performance in failed subjects/ courses
+                    (securing F grade) will also be taken into account, and the credits of such subjects/ courses will
+                    also be included in the multiplications and summations. After passing the failed subject(s) newly
+                    secured letter grades will be taken into account for calculation of SGPA and CGPA. However,
+                    mandatory courses will not be taken into consideration.<br><br>
+                </p>
+                <h5>Passing standards</h5>
+                <p class="mt-4">A student shall be declared successful or ‘passed’ in a semester, if student secures a
+                    GP ≥ 5 (‘C’
+                    grade or above) in every subject/course in that semester (i.e. when student gets an SGPA ≥ 5.00 at
+                    the end of that particular semester); and a student shall be declared successful or ‘passed’ in the
+                    entire under graduate programme, only when gets a CGPA ≥ 5.00 for the award of the degree as
+                    required.<br><br>
+
+                    After the completion of each semester, a grade card or grade sheet (or transcript) shall be issued
+                    to all the registered students of that semester, indicating the letter grades and credits earned. It
+                    will show the details of the courses registered (course code, title, no. of credits, and grade
+                    earned etc.), credits earned, SGPA, and CGPA.<br><br>
+                </p>
+                <h5>Declaration of results</h5>
+                <p class="mt-4">Computation of SGPA and CGPA are done using the procedure listed in SGPA to CGPA.
+
+                    <br><br>
+
+                    For final percentage of marks equivalent to the computed final CGPA, the following formula may be
+                    used.<br><br>
+                </p>
+            </div>
+            <p class="link-danger mt-4 center bold">% of Marks = (final CGPA – 0.5) x 10</p>
+            <a href="/calc-gpa"> <button class="center mb-2" id="middle">Click Here to calculate your CGPA</button></a>
+
+        </div>
+        <hr>
+
+    </div>
+</div>
+<section>
+    <img src="{{url_for('static',filename='Images/Logo-Shadow.png')}}" style="position: fixed;" alt="Logo" id="bg-logo">
+</section>
+{% endblock %}

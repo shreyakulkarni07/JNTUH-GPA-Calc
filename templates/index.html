@@ -1,0 +1,26 @@
+{% extends '_base.html' %}
+{% block head %}
+<title> JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='index.css')}}">
+{% endblock %}
+
+{% block body %}
+<div class="containter">
+    <a href="/">
+        <div>
+            <img id="logo" src="/static/Images/Logo-withText.png" alt="pic">
+        </div>
+    </a>
+    <div class="side">
+        <div class="text">
+            Checkout your CGPA <br>
+            Exclusively for JNTUH Affiliated Colleges
+        </div>
+        <div class="buttons">
+            <a href="/login"><button id="dark-btn"> Get Started </button></a>
+            <a href="/how-it-works"><button> How it Works ?</button></a>
+        </div>
+    </div>
+</div>
+<img src="/static/Images/home.png" data-aos="zoom-out" data-aos-duration="1500" id="homeimg">
+{% endblock %}

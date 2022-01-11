@@ -1,0 +1,78 @@
+.visible {
+    display: visible;
+
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.block {
+    display: block !important;
+}
+
+.hide {
+    display: none;
+}
+
+.confetti {
+    display: flex;
+    margin-top: -20px;
+    z-index: -1;
+    margin-left: -60px;
+    transform: scale(1.5);
+    overflow: hidden !important;
+}
+
+.success-confetti {
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+    transform: scaleX(-1);
+}
+
+.tgpa-confetti {
+    overflow-y: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    transform: scale(3);
+}
+
+@media only screen and (max-width: 600px) {
+    .confetti {
+        display: flex;
+        margin-top: 20px;
+        z-index: -5 !important;
+        margin-left: -60px;
+        transform: scale(5);
+    }
+
+    .overflow {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .success-confetti {
+        position: absolute;
+        left: 0;
+        bottom: -70px;
+        transform: scale(0.7);
+    }
+    
+.tgpa-confetti {
+    overflow-y: hidden;
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 0px;
+    transform: scale(1);
+}
+
+}

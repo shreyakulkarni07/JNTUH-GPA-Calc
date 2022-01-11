@@ -1,0 +1,98 @@
+.container {
+  overflow: scroll;
+}
+
+.results-content {
+  padding: 25px;
+  margin-left: 25px;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  transition: all 0.5s ease-in-out;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.block img {
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+
+.block p {
+  text-align: left;
+  width: 80%;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.block h6 {
+    font-weight: bold;
+}
+
+.block:hover {
+  margin-left: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+  background: #555;
+}
+
+@media only screen and (max-width: 600px) {
+.container {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow: scroll;
+}
+
+.block p {
+  text-align: left;
+  width: 130%;
+  font-size: 14px;
+  margin-right: 0px;
+  font-weight: bold;
+}
+
+.block h6 {
+  font-size: 14px;
+  width: 50%;
+  font-weight: bold;
+}
+.results-content {
+  margin-top: 20px;
+  padding: 25px;
+  margin-left: 10px;
+}
+.block img {
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+}
+
+}

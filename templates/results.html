@@ -1,0 +1,26 @@
+{% extends '_dashboard.html' %}
+{% block head %}
+<title> Results | JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='home.css')}}">
+<link rel="stylesheet" href="{{ url_for('static',filename='results.css')}}">
+
+{% endblock %}
+{% block body %}
+<main class="container">
+    <h2>Results</h2>
+    <div class="results-content">
+        {% for result in results %}
+        <a href="{{ result.1 }}" target="_blank">
+            <div class="block">
+                <img src="{{url_for('static',filename='Images/startup.png')}}" alt="Rocket">
+                <p>{{ result.2 }}</p>
+                <h6>{{ result.3 }}</h6>
+            </div>
+        </a>
+        {% endfor %}
+
+    </div>
+
+    </div>
+</main>
+{% endblock %}

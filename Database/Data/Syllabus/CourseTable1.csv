@@ -1,0 +1,328 @@
+NULL,1,1,Engineering Physics Lab,1.5
+NULL,1,1,Programming for Problem Solving Lab,1.5
+NULL,1,1,Environmental Science,0
+NULL,1,1,Mathematics - I,4
+NULL,1,1,Engineering Physics,4
+NULL,1,1,Programming for Problem Solving,4
+NULL,1,1,Engineering Graphics,3
+NULL,2,1,Engineering Workshop,2.5
+NULL,2,1,Engineering Chemistry Lab,1.5
+NULL,2,1,Mathematics - II,4
+NULL,2,1,Chemistry,4
+NULL,2,1,English,2
+NULL,2,1,Engineering Mechanics,4
+NULL,2,1,English Language and Communication Skills Lab,1
+NULL,3,1,Engineering Geology Lab,1
+NULL,3,1,Strength of Materials Lab,1.5
+NULL,3,1,Surveying Lab,1.5
+NULL,3,1,Constitution of India,0
+NULL,3,1,Engineering Geology,2
+NULL,3,1,Fluid Mechanics,4
+NULL,3,1,Probability and Statistics,4
+NULL,3,1,Strength of Materials - I,4
+NULL,3,1,Surveying and Geomatics,3
+NULL,4,1,Basic Electrical and Electronics Engineering Lab,1
+NULL,4,1,Hydraulics and Hydraulic Machinery Lab,1.5
+NULL,4,1,Gender Sensitization Lab,0
+NULL,4,1,Computer aided Civil Engineering Drawing,1.5
+NULL,4,1,Basic Electrical and Electronics Engineering,3
+NULL,4,1,Basic Mechanical Engineering for Civil Engineers,2
+NULL,4,1,"Building Materials, Construction and Planning",3
+NULL,4,1,Hydraulics and Hydraulic Machinery,3
+NULL,4,1,Strength of Materials - II,3
+NULL,4,1,Structural Analysis - 1,3
+NULL,5,1,Advanced Communication Skills Lab,1
+NULL,5,1,Geotechnical Engineering Lab,1.5
+NULL,5,1,"Highway Engineering and Concrete Technology
+Lab",1.5
+NULL,5,1,Intellectual Property Rights,0
+NULL,5,1,Professional Elective-I,3
+NULL,5,1,Engineering Economics and Accountancy,2
+NULL,5,1,Geotechnical Engineering,3
+NULL,5,1,Structural Analysis-II,3
+NULL,5,1,Structural Engineering - I (RCC),4
+NULL,5,1,Transportation Engineering,3
+NULL,6,1,Computer Aided Design Lab,1
+NULL,6,1,Environmental Engineering Lab,1
+NULL,6,1,Artificial Intelligence,0
+NULL,6,1,Environmental Engineering,3
+NULL,6,1,Foundation Engineering,3
+NULL,6,1,Hydrology & Water Resources Engineering,4
+NULL,6,1,Professional Elective ?II,3
+NULL,6,1,Structural Engineering ?II (Steel),4
+NULL,6,1,Open Elective ?I,3
+NULL,7,1,"Estimation, Costing and Project Management",4
+NULL,7,1,Professional Elective ?III,3
+NULL,7,1,Professional Elective ?IV,3
+NULL,7,1,Open Elective ?II,3
+NULL,7,1,Industrial Oriented Mini Project/Summerlnternship,2
+NULL,7,1,Seminar,1
+NULL,7,1,ProjectStage-I,3
+NULL,8,1,Professional Elective -V,3
+NULL,8,1,Professional Elective ?VI,3
+NULL,8,1,Open Elective ?III,3
+NULL,8,1,Project Stage-II,7
+NULL,1,2,Engineering Workshop,2.5
+NULL,1,2,Engineering Chemistry Lab,1.5
+NULL,1,2,English Language and Communication Skills Lab,1
+NULL,1,2,Basic Electrical Engineering Lab,1
+NULL,1,2,Mathematics - 1,4
+NULL,1,2,Chemistry,4
+NULL,1,2,Basic Electrical Engineering,3
+NULL,1,2,English,2
+NULL,2,2,Applied Physics Lab,1.5
+NULL,2,2,Programming for Problem Solving Lab,1.5
+NULL,2,2,Environmental Science,0
+NULL,2,2,Mathematics - II,4
+NULL,2,2,Programming for Problem Solving,4
+NULL,2,2,Engineering Graphics,3
+NULL,2,2,Applied Physics,4
+NULL,3,2,Analog Electronics Lab,1
+NULL,3,2,Electrical Circuits Lab,1
+NULL,3,2,Electrical Machines Lab - I,1
+NULL,3,2,Gender Sensitization Lab,0
+NULL,3,2,Analog Electronics,3
+NULL,3,2,Electrical Circuit Analysis,4
+NULL,3,2,Electrical Machines - I,4
+NULL,3,2,Electromagnetic Fields,3
+NULL,3,2,Engineering Mechanics,4
+NULL,4,2,Control Systems Lab,1
+NULL,4,2,Digital Electronics Lab,1
+NULL,4,2,Electrical Machines Lab - II,1
+NULL,4,2,Constitution of India,0
+NULL,4,2,Control Systems,4
+NULL,4,2,Digital Electronics,3
+NULL,4,2,Electrical Machines ? II,4
+NULL,4,2,"Laplace Transforms, Numerical Methods & Complex variables",4
+NULL,4,2,Power System - I,3
+NULL,5,2,Advanced Communication Skills Lab,1
+NULL,5,2,Measurements and Instrumentation Lab,1
+NULL,5,2,Power Electronics Lab,1
+NULL,5,2,Power System Simulation Lab,1
+NULL,5,2,Intellectual Property Rights,0
+NULL,5,2,Artificial Intelligence,0
+NULL,5,2,Business Economics and Financial Analysis,3
+NULL,5,2,Professional Elective-I,3
+NULL,5,2,Measurements and Instrumentation,4
+NULL,5,2,Power Electronics,4
+NULL,5,2,Power System-II,4
+NULL,6,2,Microprocessors & Microcontrollers Lab,1
+NULL,6,2,Power System Lab,1
+NULL,6,2,Signals and Systems Lab,1
+NULL,6,2,Cyber Security,0
+NULL,6,2,Microprocessors & Microcontrollers,3
+NULL,6,2,Professional Elective-II,3
+NULL,6,2,Power System Operation and Control,3
+NULL,6,2,Power System Protection,4
+NULL,6,2,Signals and Systems,3
+NULL,6,2,Open Elective-I,3
+NULL,7,2,Open Elective-II,3
+NULL,7,2,Professional Elective-III,3
+NULL,7,2,Professional Elective-IV,3
+NULL,7,2,Fundamentals of Management for Engineers,3
+NULL,7,2,Electrical & Electronics Design Lab,3
+NULL,7,2,Industrial Oriented Mini Project/ Summer Internship,2
+NULL,7,2,Seminar,1
+NULL,8,2,Project Stage-I,3
+NULL,8,2,Open Elective-III,3
+NULL,8,2,Professional Elective-V,3
+NULL,8,2,Professional Elective-VI,3
+NULL,8,2,Project Stage - II,7
+NULL,1,3,Engineering Physics Lab,1.5
+NULL,1,3,Programming for Problem Solving Lab,1.5
+NULL,1,3,Environmental Science,0
+NULL,1,3,Mathematics - I,4
+NULL,1,3,Engineering Physics,4
+NULL,1,3,Programming for Problem Solving,4
+NULL,1,3,Engineering Graphics,3
+NULL,2,3,Engineering Workshop,2.5
+NULL,2,3,Engineering Chemistry Lab,1.5
+NULL,2,3,English Language and Communication Skills Lab,1
+NULL,2,3,Mathematics - II,4
+NULL,2,3,Chemistry,4
+NULL,2,3,English,2
+NULL,2,3,Engineering Mechanics,4
+NULL,3,3,Machine Drawing Practice,1
+NULL,3,3,Material Science and Mechanics of Solids Lab,1
+NULL,3,3,Production Technology Lab,1
+NULL,3,3,Constitution of India,0
+NULL,3,3,Material Science and Metallurgy,3
+NULL,3,3,Mechanics of Solids,4
+NULL,3,3,Probability and Statistics & Complex Variables,4
+NULL,3,3,Production Technology,3
+NULL,3,3,Thermodynamics,4
+NULL,4,3,Basic Electrical and Electronics Engineering Lab,1
+NULL,4,3,Fluid Mechanics and Hydraulic Machines Lab,1
+NULL,4,3,Instrumentation and Control Systems Lab,1
+NULL,4,3,GenderSensitization Lab,0
+NULL,4,3,Basic Electrical and Electronics Engineering,3
+NULL,4,3,Fluid Mechanics and Hydraulic Machines,4
+NULL,4,3,Instrumentation and Control Systems,3
+NULL,4,3,Kinematics of Machinery,4
+NULL,4,3,ThermaIEngineering-I,4
+NULL,5,3,Kinematics & Dynamics Lab,1
+NULL,5,3,Metrology & Machine Tools Lab,1
+NULL,5,3,Thermal Engineering Lab,1
+NULL,5,3,Intellectual Property Rights,0
+NULL,5,3,Cyber Security,0
+NULL,5,3,Business Economics & Financial Analysis,3
+NULL,5,3,Design of Machine Members-I,3
+NULL,5,3,Dynamics of Machinery,4
+NULL,5,3,Metrology & Machine Tools,3
+NULL,5,3,Operations Research,3
+NULL,5,3,Thermal Engineering-II,3
+NULL,6,3,Advanced Communication Skills lab,1
+NULL,6,3,CAD & CAM Lab,1
+NULL,6,3,Heat Transfer Lab,1
+NULL,6,3,Artificial Intelligence,0
+NULL,6,3,CAD & CAM,3
+NULL,6,3,Design of Machine Members-II,3
+NULL,6,3,Finite Element Methods,3
+NULL,6,3,Heat Transfer,4
+NULL,6,3,Professional Elective - I,3
+NULL,6,3,Open Elective - I   ,3
+NULL,7,3,Refrigeration & Air Conditioning,3
+NULL,7,3,Professional Elective ? II,3
+NULL,7,3,Professional Elective ? III,3
+NULL,7,3,Professional Elective - IV,3
+NULL,7,3,Open Elective - II,3
+NULL,7,3,Industrial Oriented Mini Project/ Summer Internship,2
+NULL,7,3,Seminar,1
+NULL,7,3,Project Stage - I,3
+NULL,8,3,Professional Elective ? V,3
+NULL,8,3,Professional Elective ? VI,3
+NULL,8,3,Open Elective - III,3
+NULL,8,3,Project Stage - II,7
+NULL,1,4,Programming for Problem Solving Lab,1.5
+NULL,1,4,Environmental Science,0
+NULL,1,4,Applied Physics Lab,1.5
+NULL,1,4,Mathematics - I,4
+NULL,1,4,Programming for Problem Solving,4
+NULL,1,4,Engineering Graphics,3
+NULL,1,4,Applied Physics,4
+NULL,2,4,Engineering Workshop,2.5
+NULL,2,4,Engineering Chemistry Lab,1.5
+NULL,2,4,English Language and Communication Skills Lab,1
+NULL,2,4,Basic Electrical Engineering Lab,1
+NULL,2,4,Mathematics - II,4
+NULL,2,4,Chemistry,4
+NULL,2,4,Basic Electrical Engineering,3
+NULL,2,4,English,2
+NULL,3,4,Basic Simulation Lab,1
+NULL,3,4,Digital System Design Lab,1
+NULL,3,4,Electronic Devices and Circuits Lab,1
+NULL,3,4,Constitution of India,0
+NULL,3,4,Digital System Design,4
+NULL,3,4,Electronic Devices and Circuits,4
+NULL,3,4,Network Analysis and Transmission Lines,3
+NULL,3,4,Probability Theory and Stochastic Processes,3
+NULL,3,4,Signals and Systems,4
+NULL,4,4,Analog and Digital Communications Lab,1.5
+NULL,4,4,Electronic Circuit Analysis Lab,1
+NULL,4,4,IC Applications Lab,1.5
+NULL,4,4,Gender Sensitization Lab,0
+NULL,4,4,Analog and Digital Communications,4
+NULL,4,4,Electromagnetic Fields and Waves,3
+NULL,4,4,Electronic Circuit Analysis,3
+NULL,4,4,"Laplace Transforms, Numerical Methods & Complex Variables",4
+NULL,4,4,Linear IC Applications,3
+NULL,5,4,Advanced Communication Skills Lab,1
+NULL,5,4,Data Communications and Networks Lab,1.5
+NULL,5,4,Microprocessors & Microcontrollers Lab,1.5
+NULL,5,4,Intellectual Property Rights,0
+NULL,5,4,Cyber Security,0
+NULL,5,4,Business Economics & Financial Analysis,3
+NULL,5,4,Control Systems,4
+NULL,5,4,Data Communications and Networks,4
+NULL,5,4,Professional Elective - I,3
+NULL,5,4,Microprocessors & Microcontrollers,4
+NULL,6,4,Digital Signal Processing Lab,1.5
+NULL,6,4,e - CAD Lab,1.5
+NULL,6,4,Scripting Languages Lab,1
+NULL,6,4,Artificial Intelligence,0
+NULL,6,4,Antennas and Propagation,4
+NULL,6,4,Digital Signal Processing,4
+NULL,6,4,Professional Elective - II,3
+NULL,6,4,VLSI Design,4
+NULL,6,4,Open Elective - I,3
+NULL,7,4,Microwave and Optical Communications,3
+NULL,7,4,Professional Elective ? III,3
+NULL,7,4,Professional Elective ? IV,3
+NULL,7,4,Open Elective - II,3
+NULL,7,4,"Professional Practice, Law & Ethics",2
+NULL,7,4,Microwave and Optical Communications Lab,1
+NULL,7,4,Industrial Oriented Mini Project/ Summer Internship,2
+NULL,7,4,Seminar,1
+NULL,7,4,Project Stage - 1,3
+NULL,8,4,Professional Elective ? V,3
+NULL,8,4,Professional Elective ? VI,3
+NULL,8,4,Open Elective - III,3
+NULL,8,4,Project Stage - II,7
+NULL,1,5,Engineering Workshop,2.5
+NULL,1,5,Engineering Chemistry Lab,1.5
+NULL,1,5,English Language and Communication Skills Lab,1
+NULL,1,5,Basic Electrical Engineering Lab,1
+NULL,1,5,Mathematics - I,4
+NULL,1,5,Chemistry,4
+NULL,1,5,Basic Electrical Engineering,3
+NULL,1,5,English,2
+NULL,2,5,Applied Physics Lab,1.5
+NULL,2,5,Programming for Problem Solving Lab,1.5
+NULL,2,5,Environmental Science,0
+NULL,2,5,Mathematics - II,4
+NULL,2,5,Applied Physics,4
+NULL,2,5,Programming for Problem Solving,4
+NULL,2,5,Engineering Graphics,3
+NULL,3,5,Analog and Digital Electronics Lab,1
+NULL,3,5,C++ Programming Lab,1
+NULL,3,5,Data Structures Lab,1.5
+NULL,3,5,IT Workshop Lab,1.5
+NULL,3,5,Gender Sensitization Lab,0
+NULL,3,5,Analog and Digital Electronics,3
+NULL,3,5,Computer Organization and Architecture,3
+NULL,3,5,Computer Oriented Statistical Methods,4
+NULL,3,5,Data Structures,4
+NULL,3,5,Object Oriented Programming using C++,2
+NULL,4,5,Database Management Systems Lab,1.5
+NULL,4,5,Java Programming Lab,1
+NULL,4,5,Operating Systems Lab,1.5
+NULL,4,5,Constitution of India,0
+NULL,4,5,Business Economics & Financial Analysis,3
+NULL,4,5,Database Management Systems,4
+NULL,4,5,Discrete Mathematics,3
+NULL,4,5,Java Programming,4
+NULL,4,5,Operating Systems,3
+NULL,5,5,Advanced Communication Skills Lab,1
+NULL,5,5,Computer Networks & Web Technologies Lab,1.5
+NULL,5,5,Software Engineering Lab,1.5
+NULL,5,5,Intellectual Property Rights,0
+NULL,5,5,Artificial Intelligence,0
+NULL,5,5,Computer Networks,3
+NULL,5,5,Professional Elective-I,3
+NULL,5,5,Professional Elective -II,3
+NULL,5,5,Formal Languages & Automata Theory,3
+NULL,5,5,Software Engineering,3
+NULL,5,5,Web Technologies,3
+NULL,6,5,Compiler Design Lab,1.5
+NULL,6,5,Machine Learning Lab,1.5
+NULL,6,5,Professional Elective-III Lab,1
+NULL,6,5,Cyber Security,0
+NULL,6,5,Compiler Design,4
+NULL,6,5,Design and Analysis of Algorithms,4
+NULL,6,5,Machine Learning,4
+NULL,6,5,Professional Elective ? III,3
+NULL,6,5,Open Elective-I,3
+NULL,7,5,Cryptography & Network Security,3
+NULL,7,5,Data Mining,2
+NULL,7,5,Professional Elective -IV,3
+NULL,7,5,Professional Elective -V,3
+NULL,7,5,Open Elective - II,3
+NULL,7,5,Cryptography & Network Security Lab,1
+NULL,7,5,Industrial Oriented Mini Project/ Summer Internship,2
+NULL,7,5,Seminar,1
+NULL,7,5,Project Stage - I,3
+NULL,8,5,Organizational Behaviour,3
+NULL,8,5,Professional Elective - VI,3
+NULL,8,5,Open Elective - III,3
+NULL,8,5,Project Stage - II,7
+,,,,

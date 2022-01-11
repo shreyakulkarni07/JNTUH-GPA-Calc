@@ -1,0 +1,98 @@
+{% extends '_dashboard.html' %}
+{% block head %}
+<title> Calc GPA | JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='home.css')}}">
+<link rel="stylesheet" href="{{ url_for('static',filename='confetti.css')}}">
+{% endblock %}
+
+{% block body %}
+<main class="container">
+    <form action="/fetch-subjects" method="POST">
+        <div class="contents">
+            <select class="form-select-sm" name="reg" required>
+                <option value="" selected>Regulation</option>
+                <option value="1">R18</option>
+                <option value="2" disabled>R16</option>
+                <option value="3" disabled>R19</option>
+            </select>
+            <select class="form-select-sm" name="branch" required>
+                <option value="" selected>Branch</option>
+                <option value="1">CIVIL</option>
+                <option value="2">EEE</option>
+                <option value="3">MECH</option>
+                <option value="4">ECE</option>
+                <option value="5">CSE</option>
+
+            </select>
+            <select class="form-select-sm" name="sem" required>
+                <option value="" selected>Year & Semester </option>
+                <option value="1">I Year - I Sem</option>
+                <option value="2">I Year - II Sem</option>
+                <option value="3">II Year - I Sem</option>
+                <option value="4">II Year - II Sem</option>
+                <option value="5">III Year - I Sem</option>
+                <option value="6">III Year - II Sem</option>
+                <option value="7">IV Year - I Sem</option>
+                <option value="8">IV Year - II Sem</option>
+            </select>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <div class="table-contents" style="display: none; display: {{ indicator }} !important;">
+        <p id="title">B.Tech {{ semtitle }}</p>
+        <form action="/calculate" method="POST">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th scope="row">Sl No.</th>
+                        <th>Subject Name</th>
+                        <th>Credits</th>
+                        <th>Grade</th>
+                        <th>Grade points</th>
+                    </tr>
+                    {% for result in results%}
+                    <tr>
+                        <td scope="row">{{loop.index}}</td>
+                        <td id="left">{{ result.3 }}</td>
+                        <td>{{ result.4 }}</td>
+                        <td id="zindex">
+                            <select autofocus class="form-select" name="s{{result.0}}" required>
+                                <option selected value="">-</option>
+                                <option value="10">O</option>
+                                <option value="9">A+</option>
+                                <option value="8">A</option>
+                                <option value="7">B+</option>
+                                <option value="6">B</option>
+                                <option value="5">C</option>
+                                <option value="0">F</option>
+                            </select>
+                        </td>
+                        <td>{{ gpoints[loop.index-1] }}</td>
+                    </tr>
+                    {% endfor %}
+                    <tr id="bolder">
+                        <td></td>
+                        <td id="left">TOTAL</td>
+                        <td>{{ total }}</td>
+                        <td>
+                        </td>
+                        <td>{{ gpvalue }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" name="calculate">Calculate</button>
+        </form>
+    </div>
+    <p class="link-danger" style="margin-bottom: 0px; margin-top: 5px; font-weight: bold; font-size: 18px;">
+    {{ alert }}</p>
+    <p id="title" class="link-success" style="margin-bottom: 0px; margin-top: 5px;">{{alertsuccess}}</p>
+    <p id="cgpa" style="display: none; display: {{ indi }} !important;">Semester Grade Point Average (SGPA) :
+        <span>{{ sgpa }}</span> / 10</p>
+    <div class="hide {{tvisibility}}">
+        <div class="tgpa-confetti">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_u4yrau.json" background="transparent"
+                speed="1" style="width: 350px; height: 350px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+</main>
+{% endblock %}

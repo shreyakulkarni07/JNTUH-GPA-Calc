@@ -1,0 +1,69 @@
+
+.login-box {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+    max-height: 520px;
+    padding: 25px;
+}
+
+.logo>img {
+    width: 350px;
+}
+
+#main-title {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+    padding: 0px !important;
+   letter-spacing: -0.5px; 
+    font-size: 32px;
+    margin: 0 !important;
+}
+h6 {
+   margin:10px 0px 20px 0px !important;
+   font-size: 16px;
+}
+
+.d-grid>button:hover {
+    box-shadow: -6px 8px 13px -6px rgba(0,0,0,0.5);
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none !important;
+    box-shadow:none !important;
+}
+input {
+    border: 3px solid #ccc !important;
+}
+.form-floating {
+    border-radius: 3px;
+    box-shadow: 5px 9px 13px -6px rgba(0,0,0,0.5);
+
+}
+input[type="text"] {
+    text-transform: uppercase;
+}
+input[type="checkbox"] {
+    font-size: 22px;
+    margin-left: -36px !important;   
+        margin-right: 10px !important;   
+
+}
+.form-check-label {
+font-size: 17px;
+line-height: 30px;
+}
+@media only screen and (max-width: 600px) {
+
+.login-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   }
+   
+#main-title {
+    font-size: 28px;
+}
+}

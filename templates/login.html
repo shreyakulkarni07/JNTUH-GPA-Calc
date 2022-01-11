@@ -1,0 +1,44 @@
+{% extends '_base.html' %}
+{% block head %}
+<title> Login | JNTUH GPA Calc </title>
+<link rel="stylesheet" href="{{ url_for('static',filename='login.css')}}">
+{% endblock %}
+
+{% block body %}
+<div class="containter">
+    <a href="/">
+        <div class="logo">
+            <img src="{{url_for('static',filename='Images/Logo-withText.png')}}" alt="Logo">
+        </div>
+    </a>
+    <div class="text">
+        <p>Don't have an account ? <a href="/register">Create account</a></p>
+    </div>
+    <div class="login-box">
+        <div data-aos="zoom-in" data-aos-duration="750">
+            <p id="main-title">Hello, <br> Welcome Back </p>
+                   <P class="link-{{indicator}}" id="alert">{{alert}}</P>
+
+            <form action="/loginauth" method="POST">
+                <div class="form-floating mb-3">
+                    <input autofocus type="email" class="form-control" id="floatingInput" name="email" required
+                        placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" name="password" required
+                        placeholder="Password" minlength="8" maxlength="8" >
+                    <label for="floatingPassword">Password</label>
+                </div>
+                <div class="d-grid gap-2 col-12">
+                    <button class="btn btn-primary mt-3 mb-3 p-3" type="submit">Login</button>
+                </div>
+            </form>
+            <a href="/termsandconditions" class="link-dark" id="center">Forgot Password ?</a>
+        </div>
+    </div>
+</div>
+<section>
+    <img src="{{url_for('static',filename='Images/Logo-Shadow.png')}}" alt="Logo" id="bg-logo">
+</section>
+{% endblock %}
