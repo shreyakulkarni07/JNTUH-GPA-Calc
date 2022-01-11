@@ -1,2 +1,2 @@
 # JNTUH-GPA-Calc
-## [Click here](https:/jntuhgpacalculator.ml)
+## [Click here](http://jntuhgpacalc.herokuapp.com/)
